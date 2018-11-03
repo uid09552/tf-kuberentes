@@ -32,7 +32,7 @@ resource "kubernetes_replication_controller" "goexample" {
         }
       }
     container {
-        image = "uid09552/goexamplebackend:latestnginx:1.7.8"
+        image = "uid09552/goexamplebackend:latest"
         name  = "backend"
 
         port {
