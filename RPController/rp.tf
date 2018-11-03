@@ -66,7 +66,7 @@ resource "kubernetes_service" "frontend" {
     port {
       port = 8080
       target_port = 9090
-      node_port = 30000
+      node_port = 32000
     }
 
     type = "NodePort"
